@@ -5,6 +5,19 @@
 
 The `grid-auto-row` property is used to set the size of rows that are not explicitly defined in the grid. This property is particularly useful when you have a grid with a fixed number of columns but an unknown number of rows.
 example 
+ ### `OUTPUT`` IMAGE` 
+![Alt text](image.png)
+
+
+
+
+### `grid-auto-column`
+
+The `grid-auto-column` property is used to set the size of columns that are not explicitly defined in the grid. This property is particularly useful when you have a grid with a fixed number of columns but an unknown number of columns.
+# output 
+![Alt text](image-1.png)
+
+
 ```css
 .container {
   display: grid;
@@ -39,17 +52,14 @@ example
     <div class="item">8</div>
   </div>
 </body>
-</html>```
+</html>
 
 
- ### `OUTPUT`` IMAGE` 
-![Alt text](image.png)
 
 
-### `grid-auto-column`
 
-The `grid-auto-column` property is used to set the size of columns that are not explicitly defined in the grid. This property is particularly useful when you have a grid with a fixed number of columns but an unknown number of columns.
-example 
+
+example `grid-auto-column`
 ```css
 .container {
   display: grid;
@@ -89,5 +99,3 @@ example
 
 
 
-# output 
-![Alt text](image-1.png)
