@@ -4,7 +4,7 @@ Certainly! Below is a markdown formatted explanation of the difference between `
 
 ---
 
-## Problem Statement: `justify-items` vs `justify-self`
+`justify-items` vs `justify-self`
 
 ### `justify-items`
 
