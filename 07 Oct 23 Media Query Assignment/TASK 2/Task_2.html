@@ -1,0 +1,82 @@
+<!-- Write code to arrange containers with texts A, B, C, and D as shown in the below image.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRANGE</title>
+    <style>
+        .group{
+            border: 4px solid black;
+            margin: 20px ;
+            padding: 20px 20px 20px 20px ;
+            height: 400px;
+          
+          
+           width: 1000px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+
+        .box{
+            border-radius: 10px;
+            background-color: bisque;
+         width: 200px;
+            height:200px
+        }
+        .box1{
+            font-size: 30px;
+            font-weight: 600;
+            width: auto;
+            display: grid;
+            padding-left:100px;
+            align-items: center;
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .box2{
+           font-size: 30px;
+           font-weight: 600;
+            display: grid;
+            padding-left:100px;
+          padding-top: 85px;
+            height: auto;
+            grid-column: 3/4;
+            grid-row: 1/3;
+        }
+        .box3{
+            font-size: 30px;
+            font-weight: 600;
+            width: auto;
+            display: grid;
+            padding-left:100px;
+            align-items: center;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .box4{
+            font-size: 30px;
+            font-weight: 600;
+            width: auto;
+            display: grid;
+            padding-left:100px;
+            align-items: center;
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="group">
+        <div class="box box1">A</div>
+        <div class="box box2">B</div>
+        <div class="box box3">C</div>
+        <div class="box box4">D</div>
+    </div>
+</body>
+</html>
