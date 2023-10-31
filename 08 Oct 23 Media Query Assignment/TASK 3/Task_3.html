@@ -1,0 +1,49 @@
+<!-- Problem Statement 
+Create a navigation bar with five links. Apply a media query that converts the navigation into a vertical list for 
+screens smaller than 768px and also changes the background color to gray.   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVIGATION BAR</title>
+    <style>
+        nav{
+          
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        @media (768px>width) {
+
+            nav{background-color: grey;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+            }
+            a{
+                padding: 10px;
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="navi">
+        <nav>
+            <a href="Task_3.html">Home</a>
+            <a href="Task_3.html">About</a>
+            <a href="Task_3.html">Services</a>
+            <a href="Task_3.html">Portfolio</a>
+            <a href="Task_3.html">Contact</a>
+        </nav>
+    </div>
+</body>
+</html>

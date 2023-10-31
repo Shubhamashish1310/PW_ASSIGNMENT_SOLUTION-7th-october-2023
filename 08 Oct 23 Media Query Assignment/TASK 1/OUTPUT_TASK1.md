@@ -1,0 +1,10 @@
+### OUTPUT TASK-1 
+
+```IMAGE MORE THAN 600PX```
+![IMAGE BEFORE](image.png)
+
+```IMAGE AT 600PX```
+![AT 600PX](image-1.png)
+
+```IMAGE LESS THAN 600PX```
+![LESS THAN 600PX](image-2.png)

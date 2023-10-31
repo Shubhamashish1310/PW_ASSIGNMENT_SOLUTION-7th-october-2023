@@ -1,0 +1,66 @@
+<!-- Create a grid based layout containing four grid items which arranges them as the screen size changes.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid based layout</title>
+    <style>
+        .parent{
+            
+            display: grid;
+           gap: 10px;
+            grid-template-columns: repeat(3,1fr) ;
+        }
+
+        .child{
+           text-align: center;
+            border: 1px solid;
+            height: 200px;
+            width: auto;
+
+        }
+        .box1{
+            background-color: red;
+            color: white;
+            padding-top: 10px;
+        }
+        .box2{
+            background-color: green;
+              color: white;
+              padding-top: 10px;
+        }
+        .box3{
+            background-color: blue;
+              color: white;
+              padding-top: 10px;
+        }
+        .box4{
+            background-color: rgb(176, 103, 43);
+              color: white;
+              padding-top: 10px;
+        }
+
+        @media (768px>width) {
+            .parent{
+               
+             grid-template-columns: auto;
+             grid-template-rows: auto;
+            }
+
+            .child{
+                height:20vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child box1">box1</div>
+        <div class="child box2">box2</div>
+        <div class="child box3">box3</div>
+        <div class="child box4">box4</div>
+    </div>
+</body>
+</html>
