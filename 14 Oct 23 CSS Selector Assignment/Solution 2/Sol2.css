@@ -1,0 +1,12 @@
+/* Descendant combinator selector */
+ul li a{
+    text-decoration: none;
+}
+/* child combinator */
+ul > li{
+    display: inline;
+}
+/* Adjacent sibling combinator selecto */
+li + li{
+    margin: 10px;
+}
