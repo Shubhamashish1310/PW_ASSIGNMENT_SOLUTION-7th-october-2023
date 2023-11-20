@@ -6,14 +6,12 @@
 - Definition: Precedence determines the order in which operators are evaluated in an expression.
 Example:
 ```javascript
-Copy code
 let result = 5 + 10 * 2; // Multiplication has higher precedence than addition
 ```
 ### Associativity:
 - Definition: Associativity defines the order in which operators of the same precedence are evaluated.
 Example:
 ```javascript
-
 let result = 20 / 4 / 2; // Division is left-associative, so it's evaluated from left to right
 ```
 #### Importance:

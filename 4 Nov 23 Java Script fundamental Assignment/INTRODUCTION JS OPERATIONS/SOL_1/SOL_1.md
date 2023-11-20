@@ -17,7 +17,6 @@ Operators in JavaScript are symbols that perform operations on variables and val
 - Example: =, +=, -=, *=, /= (assignment, addition assignment, subtraction assignment, multiplication assignment, division assignment).
 
 ```javascript
-Copy code
 let x = 10;
 x += 5; // x is now 15
 ```
@@ -28,7 +27,6 @@ x += 5; // x is now 15
 - Example: ==, ===, !=, !==, >, <, >=, <= (equal, strict equal, not equal, strict not equal, greater than, less than, greater than or equal, less than or equal).
 
 ```javascript
-Copy code
 let a = 10;
 let b = 5;
 console.log(a > b); // true
@@ -38,7 +36,6 @@ console.log(a > b); // true
 - Combine multiple boolean values and return a boolean result.
 - Example: &&, ||, ! (logical AND, logical OR, logical NOT).
 ```javascript
-Copy code
 let condition1 = true;
 let condition2 = false;
 console.log(condition1 && condition2); // false```
@@ -47,7 +44,6 @@ console.log(condition1 && condition2); // false```
 - Operate on a single operand.
 - Example: ++, -- (increment, decrement).
 ```javascript
-Copy code
 let counter = 5;
 counter++; // counter is now 6
 ```
@@ -55,7 +51,6 @@ counter++; // counter is now 6
 - Provides a shorthand way of writing an if-else statement.
 - Example: condition ? expr1 : expr2.
 ```javascript
-Copy code
 let age = 20;
 let status = (age >= 18) ? 'Adult' : 'Minor';
 ```
