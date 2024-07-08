@@ -12,7 +12,7 @@
      return innerFunction;
  }
 
- let shubham =outerFunction(20) //20,10
+ let shubham =outerFunction(20) ;//20,10
  shubham(); //20,10
 
  //console.log(b);//Uncaught ReferenceError: b is not defined due to lexical scoping
